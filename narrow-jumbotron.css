@@ -2,6 +2,21 @@
 body {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  background-color: black;
+  color: maroon;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #ff3300;
+}
+
+a.nav-link {
+	color: #ff3300;
+}
+
+.text-muted {
+	color: #ff3300 !important;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -28,7 +43,7 @@ body {
 /* Custom page footer */
 .footer {
   padding-top: 1.5rem;
-  color: #777;
+  color: #ff3300;
   border-top: .05rem solid #e5e5e5;
 }
 
@@ -46,16 +61,19 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: .05rem solid #e5e5e5;
+  background-color: #fff;
 }
 .jumbotron .btn {
   padding: .75rem 1.5rem;
   font-size: 1.5rem;
+  background-color: #ff3300;
+  border-color: #ff3300;
 }
 
 /* Supporting marketing content */
 .marketing {
   margin: 3rem 0;
-  color: #009900;
+  color: #fff;
 }
 .marketing p + h4 {
   margin-top: 1.5rem;
